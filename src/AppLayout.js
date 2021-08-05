@@ -4,7 +4,7 @@ import Auth from './Auth';
 export const AppLayout = props => {
   return (
     <div>
-      <h1>App Layout</h1>
+      <h1>Your Dashboard</h1>
       <button
         onClick={() => {
           Auth.logout(() => {
